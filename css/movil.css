@@ -1,0 +1,100 @@
+@media screen and (max-width: 430px){
+
+    header{
+        width: 100vw;
+    }
+
+    header nav{
+        flex-direction: column;
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo i{
+        display: inline-block;
+        color: var(--color1);
+    }
+
+    .telef{
+        display: none;
+    }
+
+    .cabecera-texto{
+        padding-right: 0px;
+        width: 90%;
+        margin: auto;
+        padding-top: 200px;
+    }
+    
+    .cabecera-botones{
+        flex-direction: column;
+    }
+
+    .contenedor-empresas{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .servicios-contenedor{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .servicio-boton{
+        width: 90%;
+    }
+
+    .servicios-tarjeta{
+        width: 90%;
+    }
+
+    .modal-cont form{
+        width: 90%;
+    }
+
+    .precios-contenedor{
+        flex-direction: column;
+    }
+
+    .precios-card{
+        width: 80%;
+    }
+
+    .videos{
+        flex-direction: column;
+    }
+
+    .video{
+        width: 80%;
+    }
+
+    .pie-contenedor1{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .slide{
+        min-width: 100%;
+    }
+
+    .contenedor{
+        flex-direction: column;
+
+    }
+
+    .acordeon_titulo{
+
+    }
+
+    .pregunta{
+        width: 90%;
+        margin: auto;
+    }
+}
